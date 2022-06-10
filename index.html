@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
 
     <script type="text/javascript" src="index.js"></script>
 
@@ -23,7 +24,7 @@
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto ">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -38,7 +39,7 @@
                 Projects
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="polyglot.html">Polyglot</a>
+                <a class="dropdown-item" href="#polyglot">Polyglot</a>
                 <!--<a class="dropdown-item" href="#">Another action</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>-->
@@ -47,14 +48,16 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <a itemprop="sameAs" href="https://www.linkedin.com/in/JackGoeree" target="_blank" rel="noopener" style="padding-left: 10px;">
+            <li class="nav-item align-self-center">
+              <div>
+              <a href="https://www.linkedin.com/in/JackGoeree" target="_blank" rel="noopener" style="padding-left: 10px;">
                 <i class='fa fa-linkedin'>
                 </i>
               </a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a itemprop="sameAs" href="https://github.com/JackGoeree" target="_blank" rel="noopener" style="padding-left: 10px;">
+            <li class="nav-item align-self-center">
+              <a href="https://github.com/JackGoeree" target="_blank" rel="noopener" style="padding-left: 10px;">
                 <i class='fa fa-github'>
                 </i>
               </a>
@@ -86,12 +89,12 @@
       </div>
     </section>
     <hr>
-    <section id="projects" class="container">
-      <h3>Projects</h3>
+    <section id="polyglot" class="container" style="scroll-margin-top:60px">
+      <h3>Projects: Polyglot</h3>
       <br>
-      <h4>Polyglot</h4>
-      <div id="polyglot" class="row">
+      <div class="row">
         <div class="col">
+          <h5>Live Demo:</h5>
         <div class="embed-responsive embed-responsive-4by3">
           <iframe class="embed-responsive-item" src="polyglot/index.html"></iframe>
         </div>
@@ -118,20 +121,38 @@
     <hr>
     <section id="certifications" class="container">
       <h3>Certifications</h3>
-      <div class="row">
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22987094-36c8-476b-9d34-2bb0f3ed52d1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-      <div class="col">
-        <img src="istqb-ctfl.png" width="150" height="100">
-        <span>ISTQB Certified Tester Foundation Level</span>
-      </div>
-      <div class="col">
-        <a href="https://www.edx.org/professional-certificate/uwashingtonx-internationalization-and-localization">Professional Certificate in Internationalisation and Localisation</a></div>
-      </div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-2" style="outline: 1px solid #e3e3e3;" width="150" height="270" >
+            <br>
+            <img src="istqb-ctfl.png" width="150" height="100">
+            <br><br>
+            <a href="https://www.istqb.org/certifications/certified-tester-foundation-level" target="_blank" style="color:black;">ISTQB Certified Tester Foundation Level</a>
+            <br>
+            <span style="font-style: italic; font-size: smaller;">Issuer: ISTQB</span>
+          </div>
+          <div class="col-2">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22987094-36c8-476b-9d34-2bb0f3ed52d1" data-share-badge-host="https://www.credly.com">
+            </div>
+          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          </div>
+          <div class="col-2" style="outline: 1px solid #e3e3e3;" width="150" height="270" >
+            <br>
+            <img src="uniwashington.png" width="150" height="100">
+            <br><br>
+            <a href="https://www.edx.org/professional-certificate/uwashingtonx-internationalization-and-localization" target="_blank" style="color:black;">Professional Certificate in Internationalisation and Localisation</a>
+            <br>
+            <span style="font-style: italic; font-size: smaller;">Issuer: edX</span>
+          </div>
+        </div>
     </section>
     <hr>
     <section id="contact" class="container">
-      <h3>Contact Jack</h3>
-      <form method="post" action="">
+      <h3>Contact Form</h3>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5dqudzmyq02rCImbt4agDz0CmsZEJ5mtlHr4vrE_QcB9aSw/viewform?embedded=true" width="640" height="594" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      
+      <!--<form method="post" action="">
         Message:
         <br>
         <textarea id="message" name="message"></textarea>
@@ -151,7 +172,7 @@
         <input type="submit" onclick="return validateForm()">
         <br>
         <span class='error-message' id='submit-error'></span>
-      </form>
+      </form>-->
     </section>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
