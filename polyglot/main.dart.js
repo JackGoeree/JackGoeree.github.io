@@ -54323,7 +54323,7 @@ q8(){var s=0,r=A.Z(t.H),q=this,p,o,n,m,l,k
 var $async$q8=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:m=A.b([],t.C1)
 s=2
-return A.a9($.mo().wR("assets/data/languages.csv"),$async$q8)
+return A.a9($.mo().wR("data/languages.csv"),$async$q8)
 case 2:l=b
 k=A.a8a().vs(l,!1,t.N)
 B.c.cX(k,0)
