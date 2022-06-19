@@ -54323,7 +54323,7 @@ q8(){var s=0,r=A.Z(t.H),q=this,p,o,n,m,l,k
 var $async$q8=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:m=A.b([],t.C1)
 s=2
-return A.a9($.mo().wR("assets/languages.csv"),$async$q8)
+return A.a9($.mo().wR("assets/assets/languages.csv"),$async$q8)
 case 2:l=b
 k=A.a8a().vs(l,!1,t.N)
 B.c.cX(k,0)
@@ -54359,7 +54359,7 @@ XK(a4){var s=0,r=A.Z(t.nG),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3
 var $async$q9=A.a_(function(a5,a6){if(a5===1)return A.W(a6,r)
 while(true)switch(s){case 0:a0=A.b([],t.Lo)
 s=3
-return A.a9($.mo().wR("assets/data/"+a4+"/"+a4+"_lessons.csv"),$async$q9)
+return A.a9($.mo().wR("assets/assets/data/"+a4+"/"+a4+"_lessons.csv"),$async$q9)
 case 3:a1=a6
 a2=t.N
 a3=A.a8a().vs(a1,!1,a2)
