@@ -32,7 +32,6 @@ const RESOURCES = {
 "assets/flags/ltz.png": "f3f189d9ee0eb520f4f52b2e15b4c9af",
 "assets/flags/mlg.png": "a285be95602c0aa87f1448062ba6f7d9",
 "assets/flags/mlt.png": "93314d07ebae8435d154b3f3bee25967",
-"assets/flags/mlt.svg": "dcb55d4236b9977a909882974a12e924",
 "assets/flags/mon.png": "ae1555f51a37ecbbe45b2b3642dc1c49",
 "assets/flags/nld.png": "39d0c781ba2b36c04e2e1d46849fe575",
 "assets/flags/pol.png": "1e443ff46de6c6c722efbf4c4c8fb21f",
@@ -606,9 +605,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "723f777000d642a6b599879fb72ccca7",
-"/": "723f777000d642a6b599879fb72ccca7",
-"main.dart.js": "f6e23d7af964a607388b2e945092d505",
+"index.html": "a2c93ecad33f8a307c67693b93c47604",
+"/": "a2c93ecad33f8a307c67693b93c47604",
+"main.dart.js": "26a092dcb15783ab4946cccb48432d7b",
 "manifest.json": "c577201f09161dc704c7d31ce071f9e1",
 "version.json": "bf800f0057c4e11a178ab77848b97087"
 };
