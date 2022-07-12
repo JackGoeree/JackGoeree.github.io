@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "bbda506f78f5710a6e2b6adfdfea498e",
+  "assets/AssetManifest.json": "8707a9f55b67bb0d64ce4f55716a8949",
 "assets/flags/afr.png": "f2063b701c28f8a5adedcc647cb909ff",
 "assets/flags/amh.png": "f5fee9d929aeb176ab96410478061174",
 "assets/flags/ara.png": "91865d5cb43fe07876c72673fc5a8458",
@@ -14,6 +14,7 @@ const RESOURCES = {
 "assets/flags/est.png": "a23a5d2a06eaaa7ea9fb11950c0e3eca",
 "assets/flags/eus.png": "24a568f2a78d9f3ce7f9d6521d5e2635",
 "assets/flags/fas.png": "a623e8f4e4cad1bf8a36bebd9b48d896",
+"assets/flags/fin.png": "09e91d41752e957af4556c217450063e",
 "assets/flags/fra.png": "6780e0812238b96e8af666976949c902",
 "assets/flags/hat.png": "b661003be2b14a0a09ac89b0156e2690",
 "assets/flags/hin.png": "0e45363bac8644c28cda24bf558d3c29",
@@ -38,6 +39,7 @@ const RESOURCES = {
 "assets/flags/por.png": "b127101995fd0a17afb956e0aa1b1b05",
 "assets/flags/ron.png": "29e1527b456b5070e1620e4a8deb1d1d",
 "assets/flags/rus.png": "9e120e93eaa9d839381980a5fdc32371",
+"assets/flags/slk.png": "5451f04436693cf3c82401bfe421e2cd",
 "assets/flags/slv.png": "7a8b13b28c38c6cfdfc232b31f1a0c64",
 "assets/flags/slv_bg.png": "3ab9c4faf14385c6f2a67984de0949af",
 "assets/flags/slv_coa.png": "9c107a0a97f129c3145bf7cf82c0ef67",
@@ -50,7 +52,7 @@ const RESOURCES = {
 "assets/flags/tur.png": "a1693abce064d32299fd51d4b4ab508f",
 "assets/flags/ukr.png": "c268b8906914bc56a83a3e6f69d9678e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/fx/correctfx1.mp3": "8b59caef6aa7536bae23bdb892c341d1",
 "assets/fx/correctfx10.mp3": "23a8d4a7eba82e3e28a8f01bf0a5ea27",
 "assets/fx/correctfx2.mp3": "8e63ec35c30a76f3b66c18169f8767b7",
@@ -61,7 +63,8 @@ const RESOURCES = {
 "assets/fx/correctfx7.mp3": "073665b95f372277425d84b2cd7e505d",
 "assets/fx/correctfx8.mp3": "0e495212956162584cb46fc556c58ebe",
 "assets/fx/correctfx9.mp3": "8d6bffd88ef79e6ea7c36bbc83a5688d",
-"assets/NOTICES": "665eb457fc8ea12dc67df1b1fe20c09c",
+"assets/logo.png": "c56eb06f49f7af7f3d46bd8beab460ec",
+"assets/NOTICES": "6cff7ec45a79df56014301c1d1c5edc7",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flag/res/1x1/ac.svg": "41f2bc1a075c4003696bd3e8030c1dc6",
 "assets/packages/flag/res/1x1/ad.svg": "b2946bd89485be3b8b641a5385634bb3",
@@ -593,14 +596,19 @@ const RESOURCES = {
 "assets/packages/flag/res/4x3/za.svg": "e2da160e9ab8e677ecb0a95be5689e93",
 "assets/packages/flag/res/4x3/zm.svg": "c748b3b4f4569a04530f9d676137bdaf",
 "assets/packages/flag/res/4x3/zw.svg": "cecaeba01a1813720cc2e021a6585921",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "90aafb77a0dbd75e39c0f4497d2fc6e6",
-"/": "90aafb77a0dbd75e39c0f4497d2fc6e6",
-"main.dart.js": "5f9b8f18ab5e2590c37011418c333676",
+"index.html": "723f777000d642a6b599879fb72ccca7",
+"/": "723f777000d642a6b599879fb72ccca7",
+"main.dart.js": "f6e23d7af964a607388b2e945092d505",
 "manifest.json": "c577201f09161dc704c7d31ce071f9e1",
 "version.json": "bf800f0057c4e11a178ab77848b97087"
 };
@@ -608,8 +616,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
